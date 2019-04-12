@@ -8,9 +8,3 @@ hosein.set_nationality('Iranian')
 hosein.information()
 
 hosein.mouth.say("I'm in love with Programming")
-
-
-
-
-
-
