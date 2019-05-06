@@ -1,10 +1,10 @@
 from human import Human
 
 hosein = Human('Hosein', 'Hojat Ansari')
-hosein.eye.set_color('blue')
-hosein.face.set_shape('circle')
-hosein.set_nationality('Iranian')
+hosein.organs.eye.set_color('blue')
+hosein.organs.head.set_shape('circle')
+hosein.personality.set_nationality('Iranian')
 
 hosein.information()
 
-hosein.mouth.say("I'm in love with Programming")
+hosein.organs.mouth.say("I'm in love with Programming")
